@@ -1,8 +1,8 @@
-import pygame as pg
+import pygame
 
-pg.init()
+pygame.init()
 
-monitor = [pg.display.Info().current_w, pg.display.Info().current_h]
+monitor = [pygame.display.Info().current_w, pygame.display.Info().current_h]
 sirina = monitor[0] / 2
 visina = monitor[1] / 2
-prozor = pg.display.set_mode((sirina, visina), pg.RESIZABLE)
+prozor = pygame.display.set_mode((sirina, visina), pygame.RESIZABLE)
