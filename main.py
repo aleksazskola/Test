@@ -3,8 +3,8 @@ import pygame, sys
 pygame.init()
 
 monitor = [pygame.display.Info().current_w, pygame.display.Info().current_h]
-sirina = monitor[0] / 2
-visina = monitor[1] / 2
+sirina = monitor[0]
+visina = monitor[1]
 
 prozor = pygame.display.set_mode((sirina, visina))
 pygame.display.set_caption("Test")
