@@ -16,6 +16,11 @@ def gameloop():
             if dogadjaj.type == pygame.QUIT:
                 pygame.quit()
                 exit()
+        
+        tasteri = pygame.key.get_pressed()
+        if tasteri[pygame.K_q]:
+            pygame.quit()
+            exit()
 
         pygame.display.update()
         sat.tick(60)
